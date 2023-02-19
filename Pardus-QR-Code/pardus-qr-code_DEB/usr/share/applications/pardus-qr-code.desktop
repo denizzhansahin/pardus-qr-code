@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Pardus QR Code
+Encoding=UTF-8
+Comment=Desktop Application
+Exec=/usr/local/bin/pardus-qr-code
+Icon=/usr/local/bin/qr_logo/pardus_qr_logo.svg
+Terminal=false
+Type=Application
+Categories=Development

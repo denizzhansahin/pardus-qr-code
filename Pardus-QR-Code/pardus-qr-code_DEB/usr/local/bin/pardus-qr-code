@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ~
+
+echo MERHABA , PARDUS QR CODE UYGULAMASINA HOŞGELDİNİZ!
+
+/bin/python3 /usr/local/bin/QR-Pardus/pardus-qr-code.py

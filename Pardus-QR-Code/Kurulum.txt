@@ -1,0 +1,7 @@
+Merhaba, Pardus için QR Kod Oluşturucu uygulamasına hoşgeldiniz.
+
+Bu uygulamayı kurmak için KULLANICI ŞİFRENİZİ yazınız.
+Bu uygulamanın kurulumu sırasında KULLANICI ŞİFRENİZİ tekrar yazmanız istenebilir.
+Bu uygulamayı kurmak için İNTERNET BAĞLANTISI gerekir.
+
+Kurulum için bu dizin içinde bu kodu çalıştırın :bash pardus-qr-code-kurulum

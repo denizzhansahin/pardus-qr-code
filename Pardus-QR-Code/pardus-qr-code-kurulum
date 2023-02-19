@@ -1,0 +1,31 @@
+#!/bin/bash
+printf "Merhaba, Pardus için QR Kod Oluşturucu uygulamasına hoşgeldiniz.\n"
+
+printf "Bu uygulamayı kurmak için KULLANICI ŞİFRENİZİ yazınız.\n"
+printf "Bu uygulamanın kurulumu sırasında KULLANICI ŞİFRENİZİ tekrar yazmanız istenebilir.\n"
+printf "Bu uygulamayı kurmak için İNTERNET BAĞLANTISI gerekir.\n"
+
+#paket ve kütüphane kurulumu
+printf "\n"
+printf "Gerekli paketler ve kütüphaneler kuruluyor.\n"
+
+sudo apt-get install python3-pip
+sudo apt-get install python3-pyqt5
+sudo apt-get install python3-opencv
+pip install pyqrcode
+pip install pypng
+pip install pillow
+pip install qrtools
+
+printf "\n"
+printf "\n"
+
+#uygulama kurulumu
+printf "\n"
+printf "Pardus Metin Tanıma kuruluyor.\n"
+
+
+sudo dpkg -i pardus-qr-code.deb
+
+printf "\n"
+printf "\n"

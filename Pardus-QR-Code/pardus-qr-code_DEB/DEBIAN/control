@@ -1,0 +1,7 @@
+Package: pardus-qr-code    
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: amd64
+Maintainer: Denizhan Sahin <denizhsansahin.com>
+Description: Denizhan Sahin.
